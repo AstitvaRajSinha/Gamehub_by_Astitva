@@ -1,0 +1,120 @@
+.one, .first{
+    margin-top: 8%;
+    animation: rightswipe 1.2s ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.two{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.three{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.four{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.five{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.six{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.seven{
+    animation: rightswipe 1.2s ease-in;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+}
+.first{
+    animation: leftswipe 1.2s ease-in;
+    /* animation-delay: 0.6s; */
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.second{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.third{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.fourth{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.fifth{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.sixth{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.seventh{
+    animation: leftswipe 1.2s ease-in;
+    animation-delay: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.one:hover , .first:hover{
+    background-color: red;
+}
+.two:hover, .second:hover{
+    background-color: yellow;
+}
+.three:hover, .third:hover{
+    background-color: blue;
+}
+.four:hover, .fourth:hover{
+    background-color: green;
+}
+.five:hover, .fifth:hover{
+    background-color: red;
+}
+.six:hover, .sixth:hover{
+    background-color: yellow;
+}
+.seven:hover, .seventh:hover{
+    background-color:blue;
+}
+                                    /* ****************colors********** */
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
