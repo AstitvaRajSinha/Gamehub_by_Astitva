@@ -12,9 +12,31 @@
 <link rel="stylesheet" href="animation.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <title>Games</title>
+    <style>
+                body {
+            background-color: black;
+            text-align: center;
+
+        }
+
+        .main {
+            display: none;
+        }
+
+        
+    </style>
 
 </head>
-<body>
+<body onload="myFunction()">
+
+<!-- loaders -->
+
+<div class="loader" id="loader">
+  </div>
+
+  <!-- loader-end -->
+
+<div class="main" id="main">
     <div class="ball one-ball">
 
     </div>
@@ -101,5 +123,24 @@
             <div class="blank left slides" style="opacity: 0;"></div>
         </div>
     </div>
+</div>
+
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            let x = document.body
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("main").style.display = "block";
+
+        }
+    </script>
+
+
 </body>
 </html>
